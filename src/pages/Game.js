@@ -4,34 +4,36 @@ import Rock from '../images/rock.png';
 import Paper from '../images/paper.png';
 import Scissors from '../images/scissors.png';
 import Spock from '../images/spock.png';
-import PlayersModel from "../model/GameModel";
+import GameModel from "../model/GameModel";
 import Header from '../components/Header';
 
 export default function Game() {
-    const [playerTurn, setPlayerTurn] = useState(true);
     const [computerTurn, setComputerTurn] = useState(false);
     const [endgame, setEndgame] = useState(false);
-    const [resultsJson, setResultsJson] = useState({});
+    const [results, setResults] = useState({});
 
 
     const togglePlay = (choice) => {
 
-        PlayersModel.saveChoice(choice);
+        GameModel.saveChoice(choice);
         setComputerTurn(true)
         simulateComputerPlay();
     }
 
     const simulateComputerPlay = () => {
-        PlayersModel.computerPlay();
+        GameModel.computerPlay();
         setTimeout(() => {
-            let result = PlayersModel.calculateResult();
-            setResultsJson(result);
+            let result = GameModel.calculateResult();
+            setResults(result);
             setEndgame(true);
 
         }, 1500);
     }
     const resetState = () => {
-       //TODO:SE REINICIA EL JUEGO
+        setComputerTurn(false)
+        setEndgame(false)
+        setResults({})
+        GameModel.reset()
     }
 
     return (
@@ -40,7 +42,7 @@ export default function Game() {
         <div>
                 {!endgame ? (
                     <div className= "text-center">
-                        {playerTurn ?
+                        {!computerTurn ?
                             <div >Turno del Jugador</div>
                             : <div></div>
                         }
@@ -67,9 +69,9 @@ export default function Game() {
                     </div>
                 ) : (
                     <div className= "text-center" >
-                        <h1> {resultsJson}</h1>
+                        <h1> {results}</h1>
 
-                        <button onClick={() => resetState()}>
+                        <button className="btn btn-outline-warning" onClick={() => resetState()}>
                             Jugar otra Ronda
                         </button>
 

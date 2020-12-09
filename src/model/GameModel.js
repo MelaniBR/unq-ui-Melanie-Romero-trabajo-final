@@ -3,9 +3,8 @@ import State from './PlayerModel.json';
 const GameModel = {
 
     reset() {
-        State.player1 = "";
         State.election1 = "";
-        State.score1 = 0;
+        State.computerElection = "";
     },
 
 
