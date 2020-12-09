@@ -7,6 +7,7 @@ import Spock from '../images/spock.png';
 import GameModel from "../model/GameModel";
 import Header from '../components/Header';
 import Results from "../components/Results";
+import Scores from "../components/Scores";
 
 export default function Game() {
     const [computerTurn, setComputerTurn] = useState(false);
@@ -40,29 +41,31 @@ export default function Game() {
     return (
         <>
         <Header/>
-        <div>
+        <div className="background">
                 {!endgame ? (
                     <div className= "text-center">
                         {!computerTurn ?
                             <div >Turno del Jugador</div>
                             : <div></div>
                         }
-                        <div >
+                        <div className="choices" >
                             {computerTurn ? (
                                 <div className="flex justify-center">
                                     <span><p>Cargando ...</p></span>
                                 </div>
                             ) : (
-                                <div  >
-                                    <img  width="100" alt="Piedra"
+
+                                <div >
+                                    <Scores/>
+                                    <img class="choice"   alt="Piedra"
                                          src={Rock} onClick={() => togglePlay("Piedra")}/>
-                                    <img width="100" alt="Papel"
+                                    <img class="choice" alt="Papel"
                                          src={Paper} onClick={() => togglePlay("Papel")}/>
-                                    <img width="100" alt="Tijeras"
+                                    <img class="choice" alt="Tijeras"
                                          src={Scissors} onClick={() => togglePlay("Tijeras")}/>
-                                    <img width="100" alt="Lagarto"
+                                    <img class="choice" alt="Lagarto"
                                          src={Lizard} onClick={() => togglePlay("Lagarto")}/>
-                                    <img width="100" alt="Spock"
+                                    <img class="choice" alt="Spock"
                                          src={Spock} onClick={() => togglePlay("Spock")}/>
                                 </div>
                             )}

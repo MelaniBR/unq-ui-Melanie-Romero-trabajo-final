@@ -20,9 +20,18 @@ const GameModel = {
         return State.election1;
     },
 
+    getScorePlayer(){
+        return State.score1;
+    },
+
+    getScoreComputer(){
+        return State.scoreComputer;
+    },
+
     getElectionComputer(){
         return State.computerElection;
     },
+
     computerPlay() {
         let election = 1 ;//randomInt(1, 5);
         switch (election) {
@@ -52,8 +61,10 @@ const GameModel = {
         if (State.election1 === State.computerElection) {
             return "Empate";
         } else if(this.player1Won()){
+            State.score1 = State.score1 + 1
             return "Ganaste";
         } else {
+            State.scoreComputer = State.scoreComputer + 1 ;
             return "Perdiste!!";
         }
     },

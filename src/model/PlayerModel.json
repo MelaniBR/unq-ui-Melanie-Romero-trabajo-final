@@ -1,5 +1,7 @@
 {
   "player1": "",
   "election1": "",
-  "computerElection" : ""
+  "score1" : 0,
+  "computerElection" : "",
+  "scoreComputer" : 0
 }
