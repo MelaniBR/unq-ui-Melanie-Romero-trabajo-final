@@ -33,7 +33,7 @@ const GameModel = {
     },
 
     computerPlay() {
-        let election = 1 ;//randomInt(1, 5);
+        let election = randomInt(1, 5);
         switch (election) {
             case 1: {
                 State.computerElection = "Piedra";
