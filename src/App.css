@@ -1,5 +1,5 @@
 .choice {
-    border: 2px solid white;
+    border: 2px solid #9fa8ff;
     border-radius: 50%;
     margin: 0 30px;
     padding: 30px;
@@ -7,51 +7,76 @@
     transition: all 0.3s ease;
 
 }
+
 .choices {
     margin-top: 50px;
     text-align: center;
 }
+
 .choice:hover {
     cursor: pointer;
-    background-color: #CCCCFF;
+    background-color: #C8B2E4;
 }
-.title-style{
+
+.title-style {
     color: black;
     text-align: center;
     font-size: 60px;
 }
-.background{
-    background-color: azure;
+
+.background {
+    background-color: #9fa8dd;
+    margin: 0;
+    padding: 0;
     top: 0;
     left: 0;
     width: 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
 }
+.background-home{
+    background-color:white   ;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+
+}
+
 .score-board {
     margin: 50px auto;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 20px;
     text-align: center;
     width: 300px;
-    color: black;
+    color: white;
     font-size: 60px;
     padding: 20px 20px;
     font-family: Audiowide, sans-serif;
     position: relative;
 }
+
 #user-level {
     position: absolute;
     top: 40px;
     left: -70px;
 }
+
 .badge {
-    background: #dbcbff;
+    background:#7e57c2 ;
     color: black;
     font-size: 25px;
     padding: 2px 5px;
     font-family: Audiowide, sans-serif;
 }
+
 #computer-level {
     position: absolute;
     top: 40px;
     right: -90px;
+}
+
+.text-style {
+    background-color:#9fa8dd ;
 }

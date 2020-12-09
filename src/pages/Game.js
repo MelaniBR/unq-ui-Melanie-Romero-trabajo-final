@@ -47,10 +47,7 @@ export default function Game() {
             <div className="background">
                 {!endgame ? (
                     <div className="text-center">
-                        {!computerTurn ?
-                            <div>Turno del Jugador</div>
-                            : <div></div>
-                        }
+
                         <div className="choices">
                             {computerTurn ? (
                                 <div className="flex justify-center">
@@ -58,8 +55,9 @@ export default function Game() {
                                 </div>
                             ) : (
 
-                                <div>
+                                <div className="pt-5">
                                     <Scores/>
+
                                     <img class="choice" alt="Piedra"
                                          src={Rock} onClick={() => togglePlay("Piedra")}/>
                                     <img class="choice" alt="Papel"
@@ -70,6 +68,7 @@ export default function Game() {
                                          src={Lizard} onClick={() => togglePlay("Lagarto")}/>
                                     <img class="choice" alt="Spock"
                                          src={Spock} onClick={() => togglePlay("Spock")}/>
+
                                 </div>
                             )}
                         </div>
@@ -80,8 +79,8 @@ export default function Game() {
                             <h1> {results}</h1>
                         </div>
                         <Results/>
-                        <div className="pt-4">
-                            <button className="btn btn-info " onClick={() => resetState()}>
+                        <div className="pt-4 pb-5">
+                            <button className="btn btn-light " onClick={() => resetState()}>
                                 Seguir Jugando
                             </button>
                         </div>

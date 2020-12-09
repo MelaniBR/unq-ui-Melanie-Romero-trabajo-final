@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 export default function Header() {
 
     return (
-        <div className= "background">
+        <div className= "background-home">
             <div>
                 <Link to="/">
                     <button className=" btn btn-link text-right ">

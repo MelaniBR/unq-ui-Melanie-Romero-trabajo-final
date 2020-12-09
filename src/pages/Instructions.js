@@ -7,8 +7,8 @@ export default function Instruction() {
 
             <Header/>
             <div className=" text-center  ">
-                <h1 className="font-weight-bold pb-3 background">Instrucciones</h1>
-                <p className="p-3 mb-2 pt-4 pb-4 bg-secondary text-white blockquote lead ">
+                <h1 className="font-weight-bold pb-3 text-style">Instrucciones</h1>
+                <p className="p-3 mb-2 pt-4 pb-4 bg-white text-black blockquote lead small">
 
                     Piedra, Papel, Tijera, Lagarto o Spock es una expansión de los clásicos método de selección de juego
                     piedra-papel-tijeras. Funciona en el mismo principio básico, pero incluye dos armas adicionales: el
@@ -16,7 +16,7 @@ export default function Instruction() {
                 </p>
             </div>
             <div>
-                <h1 className="text-center font-weight-bold pt-3 pb-3 background">Reglas</h1>
+                <h2 className="text-center font-weight-bold pt-3 pb-3 text-style">Reglas</h2>
                 <ul className="list-group-item">
                     <li className="list-group-item list-group-item-info">Tijeras cortan papel</li>
                     <li className="list-group-item list-group-item-light">Papel cubre piedra</li>
