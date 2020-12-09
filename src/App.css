@@ -8,10 +8,7 @@
 
 }
 
-.choices {
-    margin-top: 50px;
-    text-align: center;
-}
+
 
 .choice:hover {
     cursor: pointer;
@@ -20,14 +17,14 @@
 
 .title-style {
     color: black;
-    text-align: center;
+    font-family: Luckiest Guy;
     font-size: 60px;
 }
 
 .background {
     background-color: #9fa8dd;
     margin: 0;
-    padding: 0;
+    padding: 5%;
     top: 0;
     left: 0;
     width: 100%;

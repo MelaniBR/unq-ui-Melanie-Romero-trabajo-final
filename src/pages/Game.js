@@ -48,16 +48,17 @@ export default function Game() {
                 {!endgame ? (
                     <div className="text-center">
 
-                        <div className="choices">
+                        <div >
                             {computerTurn ? (
                                 <div className="flex justify-center">
                                     <span><p>Cargando ...</p></span>
                                 </div>
                             ) : (
 
-                                <div className="pt-5">
-                                    <Scores/>
+                                <div className=" flex justify-center" >
 
+                                    <Scores/>
+                                    <h1 className="text-style"> Haz tu Movimiento</h1>
                                     <img class="choice" alt="Piedra"
                                          src={Rock} onClick={() => togglePlay("Piedra")}/>
                                     <img class="choice" alt="Papel"
