@@ -1,11 +1,23 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 export default function Header() {
-    return(
-        <div className="bg-1 p-6">
-            <h1 className="text-base sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl text-gray-100 font-black text-center flex justify-center">
-               Piedra Papel Tijera Lagarto Spock
-            </h1>
+
+    return (
+        <div className= "background">
+            <div>
+                <Link to="/">
+                    <button className=" btn btn-link text-right ">
+                        Volver
+                    </button>
+                </Link>
+            </div>
+            <div className="bg-1 p-6">
+                <h1 className="text-center font-italic pb-5">
+                    Piedra Papel Tijera Lagarto Spock
+                </h1>
+            </div>
         </div>
-    );
+    )
+        ;
 }

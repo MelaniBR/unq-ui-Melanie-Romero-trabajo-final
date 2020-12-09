@@ -15,8 +15,16 @@
     cursor: pointer;
     background-color: #CCCCFF;
 }
+.title-style{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+}
 .background{
-    background: azure;
+    background-color: azure;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .score-board {
     margin: 50px auto;

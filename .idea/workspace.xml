@@ -4,6 +4,8 @@
     <list default="true" id="be09e173-a18c-4b9f-bf30-1303d53d3fea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Results.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
@@ -58,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606350019287</updated>
       <workItem from="1606350108045" duration="2551000" />
-      <workItem from="1607456277411" duration="23183000" />
+      <workItem from="1607456277411" duration="28877000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <created>1606351597856</created>
@@ -109,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607486478171</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Detalles de botones">
+      <created>1607487579786</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607487579786</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +135,8 @@
     <MESSAGE value="resultado con imagen" />
     <MESSAGE value="Instrucciones terminado" />
     <MESSAGE value="Scores Agregado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scores Agregado" />
+    <MESSAGE value="Detalles de botones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Detalles de botones" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1607481560886">
@@ -137,25 +147,29 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="376" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1607456100790" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1607486477535">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1607487579144">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607486477535" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607487579144" />
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607446284645" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1607457458335">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1606779192037" />
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607457458335" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607486480830">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607487581201">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607486480830" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607487581201" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607446288275" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607480898528">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607480898528" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1607491541743">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607491541743" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1607487101652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

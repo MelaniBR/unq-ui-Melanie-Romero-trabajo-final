@@ -4,18 +4,19 @@ import Header from "../components/Header";
 export default function Instruction() {
 
     return (<div>
-            <Header/>
-            <div className= " text-center  ">
-            <h1>Instruction</h1>
-            <p className="bg-secondary text-white blockquote lead ">
 
-                Piedra, Papel, Tijera, Lagarto o Spock es una expansión de los clásicos método de selección de juego
-                piedra-papel-tijeras. Funciona en el mismo principio básico, pero incluye dos armas adicionales: el
-                lagarto y Spock
-            </p>
+            <Header/>
+            <div className=" text-center  ">
+                <h1 className="font-weight-bold pb-3 background">Instrucciones</h1>
+                <p className="p-3 mb-2 pt-4 pb-4 bg-secondary text-white blockquote lead ">
+
+                    Piedra, Papel, Tijera, Lagarto o Spock es una expansión de los clásicos método de selección de juego
+                    piedra-papel-tijeras. Funciona en el mismo principio básico, pero incluye dos armas adicionales: el
+                    lagarto y Spock
+                </p>
             </div>
             <div>
-                <h1 className= "text-center" >Reglas</h1>
+                <h1 className="text-center font-weight-bold pt-3 pb-3 background">Reglas</h1>
                 <ul className="list-group-item">
                     <li className="list-group-item list-group-item-info">Tijeras cortan papel</li>
                     <li className="list-group-item list-group-item-light">Papel cubre piedra</li>

@@ -8,8 +8,10 @@ import GameModel from "../model/GameModel";
 import Header from '../components/Header';
 import Results from "../components/Results";
 import Scores from "../components/Scores";
+import {Link} from 'react-router-dom';
 
 export default function Game() {
+
     const [computerTurn, setComputerTurn] = useState(false);
     const [endgame, setEndgame] = useState(false);
     const [results, setResults] = useState({});
@@ -38,26 +40,27 @@ export default function Game() {
         GameModel.reset()
     }
 
+
     return (
         <>
-        <Header/>
-        <div className="background">
+            <Header/>
+            <div className="background">
                 {!endgame ? (
-                    <div className= "text-center">
+                    <div className="text-center">
                         {!computerTurn ?
-                            <div >Turno del Jugador</div>
+                            <div>Turno del Jugador</div>
                             : <div></div>
                         }
-                        <div className="choices" >
+                        <div className="choices">
                             {computerTurn ? (
                                 <div className="flex justify-center">
                                     <span><p>Cargando ...</p></span>
                                 </div>
                             ) : (
 
-                                <div >
+                                <div>
                                     <Scores/>
-                                    <img class="choice"   alt="Piedra"
+                                    <img class="choice" alt="Piedra"
                                          src={Rock} onClick={() => togglePlay("Piedra")}/>
                                     <img class="choice" alt="Papel"
                                          src={Paper} onClick={() => togglePlay("Papel")}/>
@@ -72,19 +75,19 @@ export default function Game() {
                         </div>
                     </div>
                 ) : (
-                    <div className= "text-center" >
-                        <div className="pb-3 pt-3">
-                        <h1> {results}</h1>
+                    <div className="text-center">
+                        <div className="pb-2 pt-3">
+                            <h1> {results}</h1>
                         </div>
                         <Results/>
-                        <div className="pt-5">
-                        <button className="btn btn-info " onClick={() => resetState()}>
-                            Seguir Jugando
-                        </button>
+                        <div className="pt-4">
+                            <button className="btn btn-info " onClick={() => resetState()}>
+                                Seguir Jugando
+                            </button>
                         </div>
                     </div>
                 )}
             </div>
-    </>
+        </>
     );
 } 
