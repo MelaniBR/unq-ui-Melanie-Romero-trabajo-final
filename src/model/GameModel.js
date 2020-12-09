@@ -16,6 +16,13 @@ const GameModel = {
         return State.player1;
     },
 
+    getElectionPlayer(){
+        return State.election1;
+    },
+
+    getElectionComputer(){
+        return State.computerElection;
+    },
     computerPlay() {
         let election = 1 ;//randomInt(1, 5);
         switch (election) {

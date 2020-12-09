@@ -6,6 +6,7 @@ import Scissors from '../images/scissors.png';
 import Spock from '../images/spock.png';
 import GameModel from "../model/GameModel";
 import Header from '../components/Header';
+import Results from "../components/Results";
 
 export default function Game() {
     const [computerTurn, setComputerTurn] = useState(false);
@@ -70,9 +71,9 @@ export default function Game() {
                 ) : (
                     <div className= "text-center" >
                         <h1> {results}</h1>
-
+                        <Results/>
                         <button className="btn btn-outline-warning" onClick={() => resetState()}>
-                            Jugar otra Ronda
+                            Seguir Jugando
                         </button>
 
                     </div>

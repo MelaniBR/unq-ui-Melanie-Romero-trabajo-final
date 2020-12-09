@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be09e173-a18c-4b9f-bf30-1303d53d3fea" name="Default Changelist" comment="El re">
+    <list default="true" id="be09e173-a18c-4b9f-bf30-1303d53d3fea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Results.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/GameModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/GameModel.js" afterDir="false" />
@@ -43,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\proyectos\my-app\src\components" />
       <recent name="C:\Users\USER\Desktop\proyectos\my-app\src" />
     </key>
   </component>
@@ -55,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606350019287</updated>
       <workItem from="1606350108045" duration="2551000" />
-      <workItem from="1607456277411" duration="12507000" />
+      <workItem from="1607456277411" duration="14826000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <created>1606351597856</created>
@@ -78,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607475817695</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ya esta el reinicio">
+      <created>1607476670051</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607476670051</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,27 +100,28 @@
     <MESSAGE value="primer commit" />
     <MESSAGE value="agrego primeros componentes" />
     <MESSAGE value="las bases del juego terminadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="las bases del juego terminadas" />
+    <MESSAGE value="Ya esta el reinicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ya esta el reinicio" />
   </component>
   <component name="WindowStateProjectService">
     <state x="376" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607456100790">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="376" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1607456100790" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1607476485801">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1607476669470">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607476485801" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607476669470" />
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607446284645" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1607457458335">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1606779192037" />
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607457458335" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607475822345">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1607476672694">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607475822345" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607476672694" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607446288275" />
   </component>
 </project>
