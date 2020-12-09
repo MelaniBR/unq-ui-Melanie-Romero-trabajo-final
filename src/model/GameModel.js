@@ -6,7 +6,11 @@ const GameModel = {
         State.election1 = "";
         State.computerElection = "";
     },
-
+    resetAll(){
+        this.reset()
+      State.scoreComputer = 0;
+      State.score1= 0;
+    },
 
     saveChoice( election) {
          State.election1 = election;

@@ -8,9 +8,10 @@ import GameModel from "../model/GameModel";
 import Header from '../components/Header';
 import Results from "../components/Results";
 import Scores from "../components/Scores";
-import {Link} from 'react-router-dom';
+
 
 export default function Game() {
+
 
     const [computerTurn, setComputerTurn] = useState(false);
     const [endgame, setEndgame] = useState(false);
@@ -33,11 +34,17 @@ export default function Game() {
 
         }, 1500);
     }
-    const resetState = () => {
+    const keepPlaying = () => {
         setComputerTurn(false)
         setEndgame(false)
         setResults({})
         GameModel.reset()
+    }
+    function resetGame() {
+        setComputerTurn(false)
+        setEndgame(false)
+        setResults({})
+        GameModel.resetAll()
     }
 
 
@@ -48,17 +55,17 @@ export default function Game() {
                 {!endgame ? (
                     <div className="text-center">
 
-                        <div >
+                        <div>
                             {computerTurn ? (
                                 <div className="flex justify-center spinner-grow text-light" role="status">
                                     <span className="sr-only">Cargando...</span>
                                 </div>
                             ) : (
 
-                                <div className=" flex justify-center" >
+                                <div className=" flex justify-center">
 
                                     <Scores/>
-                                    <h1 className="text-style"> Haz tu Movimiento</h1>
+                                    <h1 className="text-style pt-5 pb-5"> Haz tu Movimiento</h1>
                                     <img class="choice" alt="Piedra"
                                          src={Rock} onClick={() => togglePlay("Piedra")}/>
                                     <img class="choice" alt="Papel"
@@ -80,10 +87,17 @@ export default function Game() {
                             <h1> {results}</h1>
                         </div>
                         <Results/>
-                        <div className="pt-4 pb-5">
-                            <button className="btn btn-light " onClick={() => resetState()}>
-                                Seguir Jugando
-                            </button>
+                        <div className="pt-5 pb-5">
+                            <div>
+                                <button className="btn btn-light  " onClick={() => keepPlaying()}>
+                                    Seguir Jugando
+                                </button>
+                            </div>
+                            <div className="pt-4">
+                                <button className="btn btn-danger m-lg-1 " onClick={() => resetGame()}>
+                                    Nuevo Juego
+                                </button>
+                            </div>
                         </div>
                     </div>
                 )}

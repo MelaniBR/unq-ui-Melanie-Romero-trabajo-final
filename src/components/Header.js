@@ -1,13 +1,19 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
+import GameModel from "../model/GameModel";
+
+
 export default function Header() {
+    function resetAll() {
+        GameModel.resetAll()
+    }
 
     return (
-        <div className= "background-home">
+        <div className= "background-naver">
             <div>
                 <Link to="/">
-                    <button className=" btn btn-link text-right ">
+                    <button className=" btn btn-link text-right " onClick={resetAll}>
                         Volver
                     </button>
                 </Link>
@@ -18,6 +24,5 @@ export default function Header() {
                 </h1>
             </div>
         </div>
-    )
-        ;
+    ) ;
 }

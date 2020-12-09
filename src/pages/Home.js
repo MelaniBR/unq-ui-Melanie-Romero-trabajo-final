@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-//Todo: hacer el fondo del incio
+
 
 function Home() {
     return (
         <>
-            <body className="text-center background">
+            <body className="text-center background-home">
                 <div class="container">
                     <div>
                         <p className="title-style pt-5 pb-5">

@@ -7,7 +7,7 @@ import Spock from '../images/spock.png';
 
 
 export default function Results() {
-    //TODO: Ver si se puede alinear de diferente manera
+
     const option = [  {tipo:"Piedra", image:Rock},
         {tipo:"Papel", image:Paper},
         {tipo:"Tijeras", image:Scissors},
@@ -22,10 +22,10 @@ export default function Results() {
 
             <div className="text-center ">
 
-                <img className="m-5" alt={election1.tipo}
+                <img className="result-image" alt={election1.tipo}
                       src={election1.image} />
 
-                <img alt={computer.tipo}
+                <img className="result-image" alt={computer.tipo}
                      src={computer.image}/>
             </div>
         </>

@@ -33,22 +33,29 @@
     font-family: sans-serif;
 }
 .background-home{
+    background-color: #9fa8dd;
+    padding: 15%;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.background-naver{
     background-color:white   ;
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
-
-
 }
 
 .score-board {
-    margin: 50px auto;
+    margin: auto;
     border: 2px solid white;
     border-radius: 20px;
     text-align: center;
     width: 300px;
     color: white;
     font-size: 60px;
+
     padding: 20px 20px;
     font-family: Audiowide, sans-serif;
     position: relative;
@@ -76,4 +83,7 @@
 
 .text-style {
     background-color:#9fa8dd ;
+}
+.result-image{
+    padding: 1%;
 }
