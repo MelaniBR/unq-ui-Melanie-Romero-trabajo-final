@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../components/Header';
 
 function Home() {
   return (
     <>
-        <div >
-        <h1>Piedra Papel Tijera Lagarto Spock</h1>
+        <Header/>
+        <div className="text-center">
         <Link  to ="/game">
             <button type="button" className="btn btn-outline-success">Jugar</button>
         </Link>
