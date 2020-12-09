@@ -21,10 +21,10 @@ export default function Results() {
 
             <div className="text-center">
 
-                <img  width="100" alt={election1.tipo}
+                <img  alt={election1.tipo}
                       src={election1.image} />
 
-                <img width="100" alt={computer.tipo}
+                <img alt={computer.tipo}
                      src={computer.image}/>
             </div>
         </>

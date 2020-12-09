@@ -2,9 +2,10 @@ import React from 'react';
 import Header from "../components/Header";
 
 export default function Instruction() {
+
     return (<div>
             <Header/>
-            <div className= "text-center">
+            <div className= " text-center  ">
             <h1>Instruction</h1>
             <p className="bg-secondary text-white blockquote lead ">
 

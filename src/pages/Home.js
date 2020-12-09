@@ -7,12 +7,14 @@ function Home() {
     <>
         <Header/>
         <div className="text-center">
+
         <Link  to ="/game">
             <button type="button" className="btn btn-outline-success">Jugar</button>
         </Link>
         <Link  to ="/instruction">
             <button type="button" className="btn btn-outline-success">Como jugar</button>
         </Link>
+
         </div>
     </>
   );

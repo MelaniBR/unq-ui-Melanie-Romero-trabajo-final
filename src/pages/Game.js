@@ -73,12 +73,15 @@ export default function Game() {
                     </div>
                 ) : (
                     <div className= "text-center" >
+                        <div className="pb-3 pt-3">
                         <h1> {results}</h1>
+                        </div>
                         <Results/>
-                        <button className="btn btn-outline-warning" onClick={() => resetState()}>
+                        <div className="pt-5">
+                        <button className="btn btn-info " onClick={() => resetState()}>
                             Seguir Jugando
                         </button>
-
+                        </div>
                     </div>
                 )}
             </div>
