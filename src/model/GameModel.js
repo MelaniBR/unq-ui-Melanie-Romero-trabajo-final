@@ -59,13 +59,13 @@ const GameModel = {
 
     calculateResult(){
         if (State.election1 === State.computerElection) {
-            return "Empate";
+            return "EMPATE";
         } else if(this.player1Won()){
             State.score1 = State.score1 + 1
-            return "Ganaste";
+            return "GANASTE!";
         } else {
             State.scoreComputer = State.scoreComputer + 1 ;
-            return "Perdiste!!";
+            return "PERDISTE!!";
         }
     },
 

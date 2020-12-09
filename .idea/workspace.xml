@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be09e173-a18c-4b9f-bf30-1303d53d3fea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/GameModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/GameModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
       <updated>1606350019287</updated>
       <workItem from="1606350108045" duration="2551000" />
       <workItem from="1607456277411" duration="29220000" />
-      <workItem from="1607520015199" duration="7579000" />
+      <workItem from="1607520015199" duration="7977000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <created>1606351597856</created>
@@ -133,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607528813517</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="descomento el random">
+      <created>1607528870973</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607528870973</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +165,8 @@
     <MESSAGE value="Arreglos de Instrucciones &#10;Agrego el boton de volver" />
     <MESSAGE value="Retoques de los colores" />
     <MESSAGE value="algunos retoques finales" />
-    <option name="LAST_COMMIT_MESSAGE" value="algunos retoques finales" />
+    <MESSAGE value="descomento el random" />
+    <option name="LAST_COMMIT_MESSAGE" value="descomento el random" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1607481560886">
@@ -166,10 +177,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="376" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1607456100790" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1607528812884">
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1607528870389">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607528812884" />
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1607528870389" />
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607446284645" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1607457458335">
       <screen x="0" y="0" width="1280" height="680" />

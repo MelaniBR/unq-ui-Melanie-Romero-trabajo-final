@@ -50,8 +50,8 @@ export default function Game() {
 
                         <div >
                             {computerTurn ? (
-                                <div className="flex justify-center">
-                                    <span><p>Cargando ...</p></span>
+                                <div className="flex justify-center spinner-grow text-light" role="status">
+                                    <span className="sr-only">Cargando...</span>
                                 </div>
                             ) : (
 
