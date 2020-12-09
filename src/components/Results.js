@@ -20,6 +20,7 @@ export default function Results() {
         <>
 
             <div className="text-center">
+
                 <img  width="100" alt={election1.tipo}
                       src={election1.image} />
 
